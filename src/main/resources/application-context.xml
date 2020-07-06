@@ -14,7 +14,7 @@
     </bean>
 
     <bean id="user"
-          class="com.cosmote.training.springboot.entities.User">
+          class="com.cosmote.training.springboot.entities.User" autowire="constructor">
     </bean>
 
 </beans>
